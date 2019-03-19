@@ -1,7 +1,7 @@
 def sum_array(array):
     array_sum = 0
     for i in array:
-        array_sum +=i
+        array_sum += i
     return array_sum
 
 
@@ -12,12 +12,15 @@ def fibonacci(number):
 
 
 def factorial(n):
-    if n == 1 | n ==0:
+    if n == 1 or n == 0:
         return 1
     else:
         return n*factorial(n-1)
 
+
+print(factorial(5))
+
+
 def reverse(word):
     new_sentence = word[::-1]
     return new_sentence
-print(reverse("reverse this"))
