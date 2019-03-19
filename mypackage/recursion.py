@@ -1,4 +1,4 @@
- def sum_array(array):
+def sum_array(array):
     array_sum = 0
     for i in array:
         array_sum +=i
