@@ -7,19 +7,17 @@ def sum_array(array):
 
 def fibonacci(number):
     if number <= 1:
-        return 1
+        return number
     return fibonacci(number - 2) + fibonacci(number - 1)
 
 
 def factorial(n):
-    if n == 1:
-        return n
+    if n == 1 | n ==0:
+        return 1
     else:
         return n*factorial(n-1)
 
 def reverse(word):
-    words = word.split(" ")
-    new_words = [word[::-1] for word in words]
-    new_sentence = " ".join(new_words)
-
+    new_sentence = word[::-1]
     return new_sentence
+print(reverse("reverse this"))
