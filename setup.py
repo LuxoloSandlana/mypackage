@@ -8,7 +8,7 @@ setup(
     description='EDSA example python package',
     long_description=open('README.md').read(),
     install_requires=['numpy'],
-    url='https://github.com/LuxoloSandlana/mypackage',
+    url='https://github.com/LuxoloSandlana/mypackage.git',
     author='Afrika Sandlana',
     author_email='lam.sandlana@gmail.com'
 )
