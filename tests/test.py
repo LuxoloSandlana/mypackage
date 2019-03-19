@@ -1,4 +1,4 @@
-from mypackage import myModule
+from mypackage import recursion, sorting
 
 def test_top_n():
     """
